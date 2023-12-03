@@ -1,0 +1,77 @@
+/*universal*/
+*{
+    padding: 0px;
+    margin: 0px;
+    background: #360369;
+    color: white;
+}
+
+/* heading line*/
+h1{
+    color: #FFF;
+    text-align: center;
+    margin-top: 30vh;
+    margin-bottom: 10vh;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 7rem;
+}
+
+
+/*button*/
+.button{
+    background-color: white;
+    color: #000;
+    text-decoration: none;
+    padding: 8px 200px;
+    margin-left: 33vw;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+
+/*media query for responsive*/
+
+@media screen and (max-width: 480px){
+    h1{
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    .button{
+        font-size: 0.5rem;
+        padding: 7px 50px;
+        margin-left: 15vw;
+    }
+}
+
+
+
+@media screen and (max-width: 768px){
+    h1{
+        font-size: 4rem;
+        margin-bottom: 20px;
+    }
+    .button{
+        font-size: 0.7rem;
+        padding: 7px 100px;
+        margin-left: 20vw;
+    }
+}
+
+
+
+
+@media screen and (max-width: 992px){
+    h1{
+        font-size: 6rem;
+        margin-bottom: 20px;
+    }
+    .button{
+        font-size: 1rem;
+        padding: 7px 150px;
+        margin-left: 25vw;
+    }
+    
+}
